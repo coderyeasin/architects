@@ -17,7 +17,7 @@ const Achievements = () => {
             src="/icons/medal.png"
             width={45.22}
             height={45.22}
-            alt="enjoy"
+            alt="medal"
             className="rounded-lg"
           />
           <h3 className="font-semibold text-[45px] text-[#424242]">54</h3>
@@ -30,7 +30,7 @@ const Achievements = () => {
             src="/icons/finished.png"
             width={45.22}
             height={45.22}
-            alt="enjoy"
+            alt="finished"
             className="rounded-lg"
           />
           <h3 className="font-semibold text-[45px] text-[#424242]">1458</h3>
@@ -43,7 +43,7 @@ const Achievements = () => {
             src="/icons/progress.png"
             width={45.22}
             height={45.22}
-            alt="enjoy"
+            alt="progress"
             className="rounded-lg"
           />
           <h3 className="font-semibold text-[45px] text-[#424242]">590</h3>
@@ -56,7 +56,7 @@ const Achievements = () => {
             src="/icons/email.png"
             width={45.22}
             height={45.22}
-            alt="enjoy"
+            alt="email"
             className="rounded-lg"
           />
           <h3 className="font-semibold text-[45px] text-[#424242]">22578</h3>

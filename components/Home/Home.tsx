@@ -5,6 +5,7 @@ import HeroSection from "../HeroSection/HeroSection";
 import QuickTour from "../QuickTour/QuickTour";
 import Features from "../Features/Features";
 import Achievements from "../Achievements/Achievements";
+import Sponsors from "../Sponsors/Sponsors";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
           <QuickTour />
           <Features />
           <Achievements />
+          <Sponsors />
         </Container>
       </section>
     </>
