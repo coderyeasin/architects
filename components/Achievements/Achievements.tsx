@@ -1,5 +1,16 @@
+import { AchieveType } from "@/types/types";
 import Image from "next/image";
-import React from "react";
+
+const achieveBox: AchieveType[] = [
+  { icon: "/icons/medal.png", countNumber: 54, title: "Awards Winnings" },
+  {
+    icon: "/icons/finished.png",
+    countNumber: 1458,
+    title: "Project Finished",
+  },
+  { icon: "/icons/progress.png", countNumber: 590, title: "Clients Worked" },
+  { icon: "/icons/email.png", countNumber: 22578, title: "Email Send" },
+];
 
 const Achievements = () => {
   return (
@@ -12,56 +23,26 @@ const Achievements = () => {
         </p>
       </div>
       <div className="py-20 flex justify-between items-center gap-12">
-        <div className="w-[241.83] h-[241.83] border-2 border-thirdBg rounded-lg flex flex-col justify-center items-center">
-          <Image
-            src="/icons/medal.png"
-            width={45.22}
-            height={45.22}
-            alt="medal"
-            className="rounded-lg"
-          />
-          <h3 className="font-semibold text-[45px] text-[#424242]">54</h3>
-          <p className="font-semibold text-[20px] text-grayText">
-            Awards Winnings
-          </p>
-        </div>
-        <div className="w-[241.83] h-[241.83] border-2 border-thirdBg rounded-lg flex flex-col justify-center items-center">
-          <Image
-            src="/icons/finished.png"
-            width={45.22}
-            height={45.22}
-            alt="finished"
-            className="rounded-lg"
-          />
-          <h3 className="font-semibold text-[45px] text-[#424242]">1458</h3>
-          <p className="font-semibold text-[20px] text-grayText">
-            Project Finished{" "}
-          </p>
-        </div>
-        <div className="w-[241.83] h-[241.83] border-2 border-thirdBg rounded-lg flex flex-col justify-center items-center">
-          <Image
-            src="/icons/progress.png"
-            width={45.22}
-            height={45.22}
-            alt="progress"
-            className="rounded-lg"
-          />
-          <h3 className="font-semibold text-[45px] text-[#424242]">590</h3>
-          <p className="font-semibold text-[20px] text-grayText">
-            Clients Worked
-          </p>
-        </div>
-        <div className="w-[241.83] h-[241.83] border-2 border-thirdBg rounded-lg flex flex-col justify-center items-center">
-          <Image
-            src="/icons/email.png"
-            width={45.22}
-            height={45.22}
-            alt="email"
-            className="rounded-lg"
-          />
-          <h3 className="font-semibold text-[45px] text-[#424242]">22578</h3>
-          <p className="font-semibold text-[20px] text-grayText">Email Send</p>
-        </div>
+        {achieveBox.map((item, i) => (
+          <div
+            key={i}
+            className="w-[241.83] h-[241.83] border-2 border-thirdBg rounded-lg flex flex-col justify-center items-center"
+          >
+            <Image
+              src={item.icon}
+              width={45.22}
+              height={45.22}
+              alt={item.title}
+              className="rounded-lg"
+            />
+            <h3 className="font-semibold text-[45px] text-[#424242]">
+              {item.countNumber}
+            </h3>
+            <p className="font-semibold text-[20px] text-grayText">
+              {item.title}
+            </p>
+          </div>
+        ))}
       </div>
     </section>
   );
