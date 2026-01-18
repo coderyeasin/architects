@@ -3,6 +3,7 @@ import Container from "../Container/Container";
 import Navbar from "../Header/Navbar";
 import HeroSection from "../HeroSection/HeroSection";
 import QuickTour from "../QuickTour/QuickTour";
+import Features from "../Features/Features";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <section>
         <Container>
           <QuickTour />
+          <Features />
         </Container>
       </section>
     </>
