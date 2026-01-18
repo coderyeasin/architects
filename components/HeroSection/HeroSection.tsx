@@ -16,7 +16,7 @@ const HeroSection = () => {
         </p>
         <Link
           href="#"
-          className="text-white bg-thirdBg font-semibold text-[20px] rounded-lg px-4 py-3"
+          className="text-white bg-thirdBg font-semibold text-[20px] rounded-lg px-4 py-4"
         >
           Explore More
         </Link>
