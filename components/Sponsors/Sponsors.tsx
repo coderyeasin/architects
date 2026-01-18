@@ -6,7 +6,7 @@ const Sponsors = () => {
     <section className="py-20">
       <div className="leading-6.5 space-y-7 text-center">
         <h3 className="text-textPrimary font-bold text-[45px]">Our Sponsors</h3>
-        <p className="text-[16px] text-[#727272]">
+        <p className="text-[16px] text-grayText">
           There are many variations of passages of Lorem Ipsum available, but{" "}
           <br /> the majority have suffered alteration.
         </p>

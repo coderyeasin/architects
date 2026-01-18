@@ -6,7 +6,7 @@ const Achievements = () => {
     <section className="pt-40 pb-20">
       <div className="leading-6.5 space-y-10">
         <h3 className="text-textPrimary font-bold text-[45px]">Some Facts</h3>
-        <p className="text-[#727272] text-[16px]">
+        <p className="text-grayText text-[16px]">
           There are many variations of passages of Lorem Ipsum available, but{" "}
           <br /> the majority have suffered alteration.
         </p>
@@ -21,7 +21,7 @@ const Achievements = () => {
             className="rounded-lg"
           />
           <h3 className="font-semibold text-[45px] text-[#424242]">54</h3>
-          <p className="font-semibold text-[20px] text-[#727272]">
+          <p className="font-semibold text-[20px] text-grayText">
             Awards Winnings
           </p>
         </div>
@@ -34,7 +34,7 @@ const Achievements = () => {
             className="rounded-lg"
           />
           <h3 className="font-semibold text-[45px] text-[#424242]">1458</h3>
-          <p className="font-semibold text-[20px] text-[#727272]">
+          <p className="font-semibold text-[20px] text-grayText">
             Project Finished{" "}
           </p>
         </div>
@@ -47,7 +47,7 @@ const Achievements = () => {
             className="rounded-lg"
           />
           <h3 className="font-semibold text-[45px] text-[#424242]">590</h3>
-          <p className="font-semibold text-[20px] text-[#727272]">
+          <p className="font-semibold text-[20px] text-grayText">
             Clients Worked
           </p>
         </div>
@@ -60,7 +60,7 @@ const Achievements = () => {
             className="rounded-lg"
           />
           <h3 className="font-semibold text-[45px] text-[#424242]">22578</h3>
-          <p className="font-semibold text-[20px] text-[#727272]">Email Send</p>
+          <p className="font-semibold text-[20px] text-grayText">Email Send</p>
         </div>
       </div>
     </section>

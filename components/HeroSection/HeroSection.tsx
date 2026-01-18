@@ -9,7 +9,7 @@ const HeroSection = () => {
           Brand New <br />
           Group of Architects{" "}
         </h1>
-        <p className="text-[16px] leading-6.5 text-[#727272]">
+        <p className="text-[16px] leading-6.5 text-grayText">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in <br /> some form, by injected
           humour, or randomised words which do not look even

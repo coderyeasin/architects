@@ -1,20 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --font-work: "Work Sans", sans-serif;
-
   --color-bgPrimary: #ffffff;
   --color-bgSecondary: #fff4e7;
 
   --color-textPrimary: #131313;
 
   --color-thirdBg: #ff900e;
+  --color-grayText: #727272;
 }
 :root {
-  font-family: var(--font-work);
-
-  color: var(--color-TextPrimary);
+  color: var(--color-textPrimary);
   background-color: var(--color-bgPrimary);
 
   font-synthesis: none;

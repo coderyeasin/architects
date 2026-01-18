@@ -38,10 +38,10 @@ const QuickTour = () => {
         </div>
         <div className="space-y-10 mx-auto">
           <h3 className="text-[45px] font-bold text-textPrimary leading-14">
-            <span className="text-[#727272]">Quick list</span> of Our <br />{" "}
+            <span className="text-grayText">Quick list</span> of Our <br />{" "}
             <span className="text-thirdBg">Features</span>
           </h3>
-          <p className="text-[#727272]">
+          <p className="text-grayText">
             There are many variations of passages of Lorem Ipsum available,
             <br /> but the majority have suffered alteration in some form, by
             injected humour, or randomised words which do not look even

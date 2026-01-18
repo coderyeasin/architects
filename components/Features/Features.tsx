@@ -10,7 +10,7 @@ const Features = () => {
             <h1 className="font-bold text-textPrimary text-[45px] leading-14 border-l-4 px-6 border-thirdBg">
               Features you will <br /> love & enjoy
             </h1>
-            <p className="text-[16px] leading-6.5 text-[#727272]">
+            <p className="text-[16px] leading-6.5 text-grayText">
               There are many variations of passages of Lorem Ipsum available,
               but the <br /> majority have suffered alteration in some form, by
               injected humour, or <br /> randomised words which do not look even
@@ -21,7 +21,7 @@ const Features = () => {
               <h3 className="font-semibold text-[20px] text-textPrimary">
                 Desktop & Mobile Version
               </h3>
-              <p className="text-[16px] text-[#727272] leading-6.5">
+              <p className="text-[16px] text-grayText leading-6.5">
                 There are many variations of passages of Lorem Ipsum available,
                 <br />
                 but the majority have suffered alteration in some form, by
@@ -33,7 +33,7 @@ const Features = () => {
               <h3 className="font-semibold text-[20px] text-textPrimary">
                 Drag & Drop Builder
               </h3>
-              <p className="text-[16px] text-[#727272] leading-6.5">
+              <p className="text-[16px] text-grayText leading-6.5">
                 There are many variations of passages of Lorem Ipsum available,
                 <br />
                 but the majority have suffered alteration in some form, by
@@ -45,7 +45,7 @@ const Features = () => {
               <h3 className="font-semibold text-[20px] text-textPrimary">
                 Awesome Modern Design
               </h3>
-              <p className="text-[16px] text-[#727272] leading-6.5">
+              <p className="text-[16px] text-grayText leading-6.5">
                 There are many variations of passages of Lorem Ipsum available,
                 <br />
                 but the majority have suffered alteration in some form, by
@@ -57,7 +57,7 @@ const Features = () => {
               <h3 className="font-semibold text-[20px] text-textPrimary">
                 Super Easy to Edit
               </h3>
-              <p className="text-[16px] text-[#727272] leading-6.5">
+              <p className="text-[16px] text-grayText leading-6.5">
                 There are many variations of passages of Lorem Ipsum available,
                 <br />
                 but the majority have suffered alteration in some form, by
