@@ -12,13 +12,13 @@ const HomePage = () => {
   return (
     <>
       <section className="w-full h-auto bg-bgSecondary">
-        <Container>
+        <Container className="px-4 sm:px-6 lg:px-8">
           <Navbar />
           <HeroSection />
         </Container>
       </section>
       <section>
-        <Container>
+        <Container className="px-4 sm:px-6 lg:px-8">
           <QuickTour />
           <Features />
           <Achievements />

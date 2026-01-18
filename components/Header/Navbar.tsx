@@ -15,15 +15,18 @@ const navLinks: navType[] = [
 const Navbar = () => {
   return (
     <header>
-      <nav className="font-work flex justify-between items-center py-10">
-        <Link href="#" className="font-bold text-[45px] text-textPrimary">
+      <nav className="font-work flex flex-col md:flex-row justify-between items-center py-6 md:py-10 gap-4 md:gap-0">
+        <Link
+          href="#"
+          className="font-bold text-2xl md:text-[45px] text-textPrimary mb-2 md:mb-0"
+        >
           G3 Architects
         </Link>
-        <ul className="flex justify-center items-center gap-x-20">
+        <ul className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-x-20">
           {navLinks.map((item, i) => (
             <li
               key={i}
-              className="font-medium text-[18px] text-[#424242] leading-7"
+              className="font-medium text-base md:text-[18px] text-[#424242] leading-7"
             >
               <Link href={item.path}>{item.name}</Link>
             </li>

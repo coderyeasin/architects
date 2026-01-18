@@ -16,17 +16,26 @@ const Achievements = () => {
   return (
     <section className="pt-40 pb-20">
       <div className="leading-6.5 space-y-10">
-        <h3 className="text-textPrimary font-bold text-[45px]">Some Facts</h3>
-        <p className="text-grayText text-[16px]">
-          There are many variations of passages of Lorem Ipsum available, but{" "}
-          <br /> the majority have suffered alteration.
+        <h3 className="text-textPrimary font-bold text-2xl md:text-[45px]">
+          Some Facts
+        </h3>
+        <p className="text-grayText text-base md:text-[16px]">
+          There are many variations of passages of Lorem Ipsum available, but
+          <span className="hidden md:inline">
+            {" "}
+            <br /> the majority have suffered alteration.
+          </span>
+          <span className="inline md:hidden">
+            {" "}
+            the majority have suffered alteration.
+          </span>
         </p>
       </div>
-      <div className="py-20 flex justify-between items-center gap-12">
+      <div className="py-10 md:py-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12">
         {achieveBox.map((item, i) => (
           <div
             key={i}
-            className="w-[241.83] h-[241.83] border-2 border-thirdBg rounded-lg flex flex-col justify-center items-center"
+            className="w-full h-[180px] md:w-[241.83px] md:h-[241.83px] border-2 border-thirdBg rounded-lg flex flex-col justify-center items-center mx-auto"
           >
             <Image
               src={item.icon}
