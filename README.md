@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# G3 Architects | Figma to Next.js Implementation
 
-## Getting Started
+![Project Banner](https://architects-wheat.vercel.app/_next/image?url=%2Fimages%2Fbanner.png&w=3840&q=75)
 
-First, run the development server:
+> A pixel-perfect conversion of an Architecture Firm landing page from Figma design to a modern, responsive web application.
+
+## 🚀 Live Demo
+
+[**View the Live Project on Vercel**](https://architects-wheat.vercel.app/)
+
+---
+
+## 📖 About The Project
+
+This project demonstrates a high-fidelity translation of a static design into a dynamic, performant web application. The goal was to build a clean, modular architecture firm website ("G3 Architects") that showcases strict attention to detail in layout, typography, and spacing.
+
+The application serves as a portfolio piece highlighting capabilities in **Frontend Engineering**, specifically the ability to execute precise designs using **Next.js** and **Tailwind CSS**.
+
+### 🌟 Key Features
+
+- **Pixel-Perfect Design**: Meticulously aligned with the original Figma source files.
+- **Fully Responsive**: Adaptive layout that works seamlessly on desktop, tablet, and mobile devices.
+- **Type-Safe Codebase**: Built with **TypeScript** to ensure robust data handling and component interfaces.
+- **Reusable Components**: Modular architecture with extracted, reusable UI elements (Buttons, Cards, Section Wrappers) for maintainability.
+- **Modern Styling**: Utilizes **Tailwind CSS** for a utility-first, performant styling approach.
+- **Optimized Assets**: Next.js Image optimization for fast load times.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (React)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Design Source**: Figma
+- **Deployment**: Vercel
+
+---
+
+## 📂 Project Structure
+
+The project follows a scalable directory structure:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+.
+├── components/    # Reusable UI components (Hero, Features, Footer, etc.)
+├── pages/         # Next.js routes and views
+├── public/        # Static assets (images, icons)
+├── styles/        # Global styles and Tailwind configuration
+├── types/         # TypeScript interfaces and type definitions
+└── README.md
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
