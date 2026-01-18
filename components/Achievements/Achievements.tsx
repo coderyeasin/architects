@@ -3,7 +3,7 @@ import React from "react";
 
 const Achievements = () => {
   return (
-    <section className="py-40">
+    <section className="pt-40 pb-20">
       <div className="leading-6.5 space-y-10">
         <h3 className="text-textPrimary font-bold text-[45px]">Some Facts</h3>
         <p className="text-[#727272] text-[16px]">

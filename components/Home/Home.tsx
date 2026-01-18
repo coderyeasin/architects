@@ -6,6 +6,7 @@ import QuickTour from "../QuickTour/QuickTour";
 import Features from "../Features/Features";
 import Achievements from "../Achievements/Achievements";
 import Sponsors from "../Sponsors/Sponsors";
+import Footer from "../Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
           <Features />
           <Achievements />
           <Sponsors />
+          <Footer />
         </Container>
       </section>
     </>
