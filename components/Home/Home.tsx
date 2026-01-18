@@ -4,6 +4,7 @@ import Navbar from "../Header/Navbar";
 import HeroSection from "../HeroSection/HeroSection";
 import QuickTour from "../QuickTour/QuickTour";
 import Features from "../Features/Features";
+import Achievements from "../Achievements/Achievements";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
         <Container>
           <QuickTour />
           <Features />
+          <Achievements />
         </Container>
       </section>
     </>
